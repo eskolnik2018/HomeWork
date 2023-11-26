@@ -17,48 +17,54 @@
 //    количеству цифр.
 
 
+
 // // Задача 1
+
 // int size = 10;
 // int[] array = new int[size];
 // int count = 0;
+
 // for (int i = 0; i < array.Length; i++) // array.Length = size
 // {
 //     array[i] = new Random().Next(1, 101);
 //     if (array[i] >= 20 && array[i] <= 90) count++;
 // }
-// Console.WriteLine($"Массив ДО: [ {string.Join("; ", array)} ]");
 
+// Console.WriteLine($"Массив ДО: [ {string.Join("; ", array)} ]");
 // Console.WriteLine($"Количество чисел в диапазоне от 20 до 90 = {count}");
 
 
+
 // // Задача 2
+
 // int size = 10;
 // int[] array = new int[size];
 // int count = 0;
+
 // for (int i = 0; i < array.Length; i++) // array.Length = size
 // {
 //     array[i] = new Random().Next(1, 101);
 //     if (array[i] %2 ==0) count++;
 // }
-// Console.WriteLine($"Массив ДО: [ {string.Join("; ", array)} ]");
 
+// Console.WriteLine($"Массив ДО: [ {string.Join("; ", array)} ]");
 // Console.WriteLine($"Количество четных чисел в массиве = {count}");
 
 
 
-// // К задаче 3 один из способов
+// // Задача 3 
+
 // double[] arr = new double[10];
 // double minNumber = 1000.0;
 // double maxNumber = 0.0;
 
-
 // for (int i = 0; i < arr.Length; i++)
 // {
-
 //     arr[i] = Math.Round(new Random().NextDouble() * new Random().Next(1001), 2);
 //     if (arr[i] > maxNumber) maxNumber = arr[i];
 //     if (arr[i] < minNumber) minNumber = arr[i];
 // }
+
 // Console.WriteLine($"Результат заполнения массива: [ {string.Join("; ", arr)} ]");
 // Console.WriteLine($"Максимум {maxNumber} - минимум {minNumber} = разница {maxNumber - minNumber}");
 
